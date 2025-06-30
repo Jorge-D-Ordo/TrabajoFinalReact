@@ -1,0 +1,17 @@
+.estContenedor {
+
+    display: flex;
+    /*    flex-direction: column; */
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.estiloTarjeta {
+    box-sizing: border-box;
+    padding: 10px 20px;
+
+}

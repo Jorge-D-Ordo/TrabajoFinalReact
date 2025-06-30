@@ -1,0 +1,47 @@
+    .estContenedor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-block;
+        border: 3px solid rgb(38, 129, 129);
+        border-radius: 10px;
+
+    }
+
+    .estCantBoton {
+        background-color: rgb(38, 129, 129);
+        border: none;
+        padding: 1px 10px;
+        border-radius: 2px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        color: white;
+        margin: 0px;
+        /*   box-sizing: border-box;*/
+    }
+
+    .estContador {
+        display: inline-block;
+        margin: 0px auto;
+        width: 55px;
+
+    }
+
+    /*
+
+    .estCantBoton {
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: 5px solid rgb(78, 158, 158);
+}
+
+.estCantBoton:hover {
+    background-color: rgb(88, 86, 86);
+    */

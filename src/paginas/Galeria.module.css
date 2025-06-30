@@ -1,0 +1,27 @@
+.general {
+    padding-top: 115px;
+        background: -webkit-linear-gradient(121deg, #efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
+
+}
+
+.contenedor {
+    display: flex;
+}
+
+.contenido1 {
+    flex: 3;
+    margin: 0px;
+}
+
+.contenido2 {
+    flex: 1;
+    background-color: #f9e8fd;
+}
+
+.h1Variante {
+    text-align: center;
+    font-family: "Playwrite AR", serif;
+    font-size: 1.9rem;
+    font-weight: 800;
+    padding-top: 10px;
+}

@@ -1,0 +1,176 @@
+clase 2
+
+ intresar un ahcrivo imporado react
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    0:11:00 
+
+ explcacion JSX
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    0:15:00 
+
+ componente funcionales funciones (declarativo sa el resultado) y funcion (imparativo cmo se hace)
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    0:17:00 
+
+ props y paso argumentos a llamar 
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    0:49:00 
+
+ props 2 fomas de hacerlo 
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    0:55:00 
+
+ props 2 fomas de hacerlo 
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    0:55:00 
+
+ componente boton  estilos cokmponente
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    1:00:00
+
+ importar lista producto   map
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    1:10:00 
+
+ compnente tarjeta
+    https://www.youtube.com/watch?v=wDcRzjpIng8&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=4
+    1:21:00 
+
+clase 3
+
+
+
+
+
+
+
+
+
+
+
+
+Clase 7 y 8
+ ruta dinamica
+    https://www.youtube.com/watch?v=i-URyqfz_3c&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=18
+    0:20:00 
+
+ ruta proteginda  
+    https://www.youtube.com/watch?v=i-URyqfz_3c&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=18
+    1:00:00 
+
+ context  contexto  
+    https://www.youtube.com/watch?v=i-URyqfz_3c&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=18
+    1:20:00 
+
+
+
+
+Pre entrega desede el inicio
+ crear desde 0 y creacion carpetas    
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    00:00:00
+
+Formatos css del footer y headhter
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    00:14:00
+
+
+Galeria productos y uso de flech
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    00:36:30    
+
+Productos armado generarl viejo
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    00:50:00       
+
+Uando bandera cargando en una imagen
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    00:54:30           
+
+Tarjeta Productos 
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    00:55:50      
+
+segunda parte de ProducList
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    01:10:30     
+    
+Carrto  ; omponente basico  estrucutra estilos pagina movimiento
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    01:22:20     
+******************************************************************************
+Ni diea como es
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    01:49:00     
+****************************************************************************
+botnes de agragar o sacaar del cartito en otras paginas
+    https://www.youtube.com/watch?v=zqcIkx5yHak&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=15
+    01:52:30     
+
+
+clase 9-10
+ CRUSH de productos simulando ser un listado de personas en el login    
+    https://www.youtube.com/watch?v=gqyuhTkZlCw&list=PL3ilcHk50_St8-daRypwudtXN47rlaPm5&index=20&ab_channel=EmilianoDelArc
+    00:30:00
+
+
+
+
+
+
+corregido                  codificacion         visualmente 
+                     Visual  funcional   css      estilos
+componentes
+   Botones
+   BotonesCantidad      SI        SI      no       Incomp
+   Clima                SI        SI      ---      Incomp
+   Nav                  SI        SI      no       Incomp
+   TargetaOferta        SI        SI      no       Incomp          
+   TarjetaProducto      SI        SI      no       Incomp
+
+estructura
+   Aside                SI        SI      Si       Verificar              
+   OfertaLista          SI        SI      no       Incomp
+   ProductoLista        SI        SI      no       Incomp
+
+
+
+
+
+/*
+   Requerimenots trabajofinal  pre entega
+
+   1 Funcionalidad basica manejo carr_ito                                  SI
+      componentes para listar producos dispnibles                          Si
+      usar el hook useState para namenjar el estado del carr_ito           Si
+      implementar evento clicl para agregar al carr_ito                    Si
+      mostrar el carrtto con productos selecconados  en otro compnente     Si
+      crear  un layour del eCommerce                                       a meidas falta lo visual ********
+
+   2 Conectar la aplicacin a una api provea informacion
+      integracion con una api                                              SI
+      Gestion del estado con useState                                      SI
+      manejo de efectos secundarios useEffect                              SI creo  ********
+      Estado de carga y errores                                            SI creo  ******** 
+      actualizar el diseño del eCommerce                                ********
+      ampliaciondel carr_ito                                               SI
+
+   3 Integracion de rutas
+      implementacion de rutas                                              SI
+      crar compenente para cada seccion                                    SI creo  ******** 
+      navergar entre Productos                                             SI creo 
+      estado de carga y manejo de errores                               ******** 
+
+   4 implementar rutas dinamicas y protegidad
+      rutas dinamicas                                                      SI    
+      rutas protegidas                                                     SI    
+      interactividad                                                    ******** 
+      navbar                                                            ******** 
+
+
+
+
+modedlo te textos 
+<h1>Bienvenido a Fragancias Argentinas</h1>
+<h2>Tu tienda online de perfumes exclusivos y alternativos</h2>
+<p>Descubrí nuestras ofertas especiales y llevá tu fragancia favorita con envíos a todo el país.</p>

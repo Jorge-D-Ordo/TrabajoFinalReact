@@ -1,0 +1,93 @@
+.estContenedor {
+    /*box-shadow: 0 2px 8px rgba(0, 148, 168, 1);*/
+    padding: 0px;
+    display: flex;
+    /*flex-direction: column; */
+    align-items: center;
+
+    margin: 0px;
+    flex-wrap: warp;
+    gap: 10px;
+}
+
+.estContenedorHijo {
+    background-color: rgb(189, 252, 252);
+    box-shadow: 2px 2px 8px rgb(36, 36, 36, .8);
+    width: 100%;
+    border: 5px solid rgb(38, 129, 129);
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.estContImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    flex: 3;
+}
+
+.estContTexto {
+    flex: 4;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.estImagen {
+    width: 100%;
+    /*height: 300px;*/
+    border: 5px solid rgb(78, 158, 158);
+    object-fit: contain;
+    /* cover*/
+    border-radius: 20px;
+}
+
+.estNombre {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #69177e;
+    margin-bottom: 4px;
+    text-align: center;
+
+}
+
+.estParrafo {
+    font-size: 1.rem;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.estParrafoLargo {
+    font-size: 1.rem;
+    margin-bottom: 4px;
+    text-align: justify;
+}
+
+.estPrecio {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #69177e;
+    text-align: center;
+}
+
+.estStock {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.estContainerCant {
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    align-items: center;
+}

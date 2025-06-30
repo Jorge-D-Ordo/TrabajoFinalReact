@@ -1,0 +1,1722 @@
+[
+    {
+        "idProducto" : 1553008,
+        "idCampania" : "2025-04",
+        "pagina" :  11,
+        "oferta" : true,
+        "precioNormal": 35000,
+        "precio" : 24999.99,
+        "costo" : 20000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553010,
+        "idCampania" : "2025-04",
+        "pagina" :  11,
+        "oferta" : true,
+        "precioNormal": 35000,
+        "precio" : 24999.99,
+        "costo" : 20000,
+        "nota" : ""
+    },
+    {
+        "idProducto" : 1536036,
+        "idCampania" : "2025-04",
+        "pagina" :  13,
+        "oferta" : true,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536019,
+        "idCampania" : "2025-04",
+        "pagina" :  15,
+        "oferta" : true,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536027,
+        "idCampania" : "2025-04",
+        "pagina" :  16,
+        "oferta" : true,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536016,
+        "idCampania" : "2025-04",
+        "pagina" :  16,
+        "oferta" : true,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536014,
+        "idCampania" : "2025-04",
+        "pagina" :  17,
+        "oferta" : true,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536033,
+        "idCampania" : "2025-04",
+        "pagina" :  19,
+        "oferta" : false,
+        "precioNormal": 49000,
+        "precio" : 34999.999,
+        "costo" : 28000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536035,
+        "idCampania" : "2025-04",
+        "pagina" :  20,
+        "oferta" : false,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536034,
+        "idCampania" : "2025-04",
+        "pagina" :  21,
+        "oferta" : false,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18052004,
+        "idCampania" : "2025-04",
+        "pagina" :  22,
+        "oferta" : false,
+        "precioNormal": 14000,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18036030,
+        "idCampania" : "2025-04",
+        "pagina" :  23,
+        "oferta" : false,
+        "precioNormal": 35000,
+        "precio" : 24999.99,
+        "costo" : 20000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18051003,
+        "idCampania" : "2025-04",
+        "pagina" :  24,
+        "oferta" : false,
+        "precioNormal": 14000,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18052003,
+        "idCampania" : "2025-04",
+        "pagina" :  24,
+        "oferta" : false,
+        "precioNormal": 14000,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18015105,
+        "idCampania" : "2025-04",
+        "pagina" :  25,
+        "oferta" : false,
+        "precioNormal": 35000,
+        "precio" : 24999.99,
+        "costo" : 20000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1508001,
+        "idCampania" : "2025-04",
+        "pagina" :  26,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1559506,
+        "idCampania" : "2025-04",
+        "pagina" :  26,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557004,
+        "idCampania" : "2025-04",
+        "pagina" :  26,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557009,
+        "idCampania" : "2025-04",
+        "pagina" :  26,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553013,
+        "idCampania" : "2025-04",
+        "pagina" :  27,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553011,
+        "idCampania" : "2025-04",
+        "pagina" :  27,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553012,
+        "idCampania" : "2025-04",
+        "pagina" :  27,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553014,
+        "idCampania" : "2025-04",
+        "pagina" :  28,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557011,
+        "idCampania" : "2025-04",
+        "pagina" :  28,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1542002,
+        "idCampania" : "2025-04",
+        "pagina" :  29,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1503002,
+        "idCampania" : "2025-04",
+        "pagina" :  29,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536000,
+        "idCampania" : "2025-04",
+        "pagina" :  30,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557008,
+        "idCampania" : "2025-04",
+        "pagina" :  30,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1529002,
+        "idCampania" : "2025-04",
+        "pagina" :  30,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1509001,
+        "idCampania" : "2025-04",
+        "pagina" :  31,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536011,
+        "idCampania" : "2025-04",
+        "pagina" :  31,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557501,
+        "idCampania" : "2025-04",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 19320,
+        "precio" : 10999.99,
+        "costo" : 8800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557502,
+        "idCampania" : "2025-04",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 19320,
+        "precio" : 10999.99,
+        "costo" : 8800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557503,
+        "idCampania" : "2025-04",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 19320,
+        "precio" : 10999.99,
+        "costo" : 8800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553015,
+        "idCampania" : "2025-04",
+        "pagina" :  33,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1539001,
+        "idCampania" : "2025-04",
+        "pagina" :  33,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553006,
+        "idCampania" : "2025-04",
+        "pagina" :  34,
+        "oferta" : false,
+        "precioNormal": 17780,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553005,
+        "idCampania" : "2025-04",
+        "pagina" :  34,
+        "oferta" : false,
+        "precioNormal": 17780,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1528003,
+        "idCampania" : "2025-04",
+        "pagina" :  35,
+        "oferta" : false,
+        "precioNormal": 17780,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1528007,
+        "idCampania" : "2025-04",
+        "pagina" :  35,
+        "oferta" : false,
+        "precioNormal": 17780,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1528005,
+        "idCampania" : "2025-04",
+        "pagina" :  35,
+        "oferta" : false,
+        "precioNormal": 17780,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536007,
+        "idCampania" : "2025-04",
+        "pagina" :  36,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536008,
+        "idCampania" : "2025-04",
+        "pagina" :  36,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1530020,
+        "idCampania" : "2025-04",
+        "pagina" :  37,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536003,
+        "idCampania" : "2025-04",
+        "pagina" :  38,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536002,
+        "idCampania" : "2025-04",
+        "pagina" :  38,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536006,
+        "idCampania" : "2025-04",
+        "pagina" :  39,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536010,
+        "idCampania" : "2025-04",
+        "pagina" :  39,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1120004,
+        "idCampania" : "2025-04",
+        "pagina" :  40,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1120001,
+        "idCampania" : "2025-04",
+        "pagina" :  40,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1555001,
+        "idCampania" : "2025-04",
+        "pagina" :  40,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536012,
+        "idCampania" : "2025-04",
+        "pagina" :  41,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 14999.99,
+        "costo" : 12000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536009,
+        "idCampania" : "2025-04",
+        "pagina" :  42,
+        "oferta" : false,
+        "precioNormal": 2800,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1559505,
+        "idCampania" : "2025-04",
+        "pagina" :  42,
+        "oferta" : false,
+        "precioNormal": 2800,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536005,
+        "idCampania" : "2025-04",
+        "pagina" :  42,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1559001,
+        "idCampania" : "2025-04",
+        "pagina" :  42,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1525001,
+        "idCampania" : "2025-04",
+        "pagina" :  43,
+        "oferta" : false,
+        "precioNormal": 2800,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1525002,
+        "idCampania" : "2025-04",
+        "pagina" :  43,
+        "oferta" : false,
+        "precioNormal": 2800,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5201002,
+        "idCampania" : "2025-04",
+        "pagina" :  58,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 6999.99,
+        "costo" : 5600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5201001,
+        "idCampania" : "2025-04",
+        "pagina" :  58,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 6999.99,
+        "costo" : 5600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5201003,
+        "idCampania" : "2025-04",
+        "pagina" :  58,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 6999.99,
+        "costo" : 5600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5117001,
+        "idCampania" : "2025-04",
+        "pagina" :  80,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5117002,
+        "idCampania" : "2025-04",
+        "pagina" :  80,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5117003,
+        "idCampania" : "2025-04",
+        "pagina" :  80,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5080002,
+        "idCampania" : "2025-04",
+        "pagina" :  108,
+        "oferta" : false,
+        "precioNormal": 6300,
+        "precio" : 3499.99,
+        "costo" : 2800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5080007,
+        "idCampania" : "2025-04",
+        "pagina" :  108,
+        "oferta" : false,
+        "precioNormal": 6300,
+        "precio" : 3499.99,
+        "costo" : 2800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5080003,
+        "idCampania" : "2025-04",
+        "pagina" :  108,
+        "oferta" : false,
+        "precioNormal": 6300,
+        "precio" : 3499.99,
+        "costo" : 2800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111112,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111106,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111114,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111104,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116001,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116002,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116005,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116003,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116006,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116004,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111107,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111113,
+        "idCampania" : "2025-04",
+        "pagina" :  112,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111111,
+        "idCampania" : "2025-04",
+        "pagina" :  113,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110518,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110520,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111503,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110519,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110517,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 511059,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111502,
+        "idCampania" : "2025-04",
+        "pagina" :  122,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536031,
+        "idCampania" : "2025-05",
+        "pagina" :  13,
+        "oferta" : true,
+        "precioNormal": 49000,
+        "precio" : 34999.99,
+        "costo" : 28000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536033,
+        "idCampania" : "2025-05",
+        "pagina" :  15,
+        "oferta" : true,
+        "precioNormal": 49000,
+        "precio" : 34999.99,
+        "costo" : 28000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536019,
+        "idCampania" : "2025-05",
+        "pagina" :  16,
+        "oferta" : true,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536014,
+        "idCampania" : "2025-05",
+        "pagina" :  17,
+        "oferta" : true,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553015,
+        "idCampania" : "2025-05",
+        "pagina" :  18,
+        "oferta" : true,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1539001,
+        "idCampania" : "2025-05",
+        "pagina" :  18,
+        "oferta" : true,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536036,
+        "idCampania" : "2025-05",
+        "pagina" :  19,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 17999.99,
+        "costo" : 14400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1544001,
+        "idCampania" : "2025-05",
+        "pagina" :  20,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553014,
+        "idCampania" : "2025-05",
+        "pagina" :  20,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557011,
+        "idCampania" : "2025-05",
+        "pagina" :  20,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1542002,
+        "idCampania" : "2025-05",
+        "pagina" :  21,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1503002,
+        "idCampania" : "2025-05",
+        "pagina" :  21,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536000,
+        "idCampania" : "2025-05",
+        "pagina" :  22,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557008,
+        "idCampania" : "2025-05",
+        "pagina" :  22,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1529002,
+        "idCampania" : "2025-05",
+        "pagina" :  22,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1509001,
+        "idCampania" : "2025-05",
+        "pagina" :  23,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536011,
+        "idCampania" : "2025-05",
+        "pagina" :  23,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553013,
+        "idCampania" : "2025-05",
+        "pagina" :  24,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553011,
+        "idCampania" : "2025-05",
+        "pagina" :  24,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553012,
+        "idCampania" : "2025-05",
+        "pagina" :  25,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1508001,
+        "idCampania" : "2025-05",
+        "pagina" :  26,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557004,
+        "idCampania" : "2025-05",
+        "pagina" :  26,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1559506,
+        "idCampania" : "2025-05",
+        "pagina" :  27,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557009,
+        "idCampania" : "2025-05",
+        "pagina" :  27,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18051003,
+        "idCampania" : "2025-05",
+        "pagina" :  28,
+        "oferta" : false,
+        "precioNormal": 14000,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18052003,
+        "idCampania" : "2025-05",
+        "pagina" :  28,
+        "oferta" : false,
+        "precioNormal": 14000,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18015105,
+        "idCampania" : "2025-05",
+        "pagina" :  29,
+        "oferta" : false,
+        "precioNormal": 35000,
+        "precio" : 24999.99,
+        "costo" : 20000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18036030,
+        "idCampania" : "2025-05",
+        "pagina" :  30,
+        "oferta" : false,
+        "precioNormal": 35000,
+        "precio" : 24999.99,
+        "costo" : 20000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 18052004,
+        "idCampania" : "2025-05",
+        "pagina" :  30,
+        "oferta" : false,
+        "precioNormal": 14000,
+        "precio" : 9999.99,
+        "costo" : 8000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1528003,
+        "idCampania" : "2025-05",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 16800,
+        "precio" : 11999.99,
+        "costo" : 9600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553006,
+        "idCampania" : "2025-05",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 16800,
+        "precio" : 11999.99,
+        "costo" : 9600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1528007,
+        "idCampania" : "2025-05",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 16800,
+        "precio" : 11999.99,
+        "costo" : 9600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1553005,
+        "idCampania" : "2025-05",
+        "pagina" :  32,
+        "oferta" : false,
+        "precioNormal": 16800,
+        "precio" : 11999.99,
+        "costo" : 9600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557501,
+        "idCampania" : "2025-05",
+        "pagina" :  33,
+        "oferta" : false,
+        "precioNormal": 18200,
+        "precio" : 12999.99,
+        "costo" : 10400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557502,
+        "idCampania" : "2025-05",
+        "pagina" :  33,
+        "oferta" : false,
+        "precioNormal": 18200,
+        "precio" : 12999.99,
+        "costo" : 10400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1557503,
+        "idCampania" : "2025-05",
+        "pagina" :  33,
+        "oferta" : false,
+        "precioNormal": 18200,
+        "precio" : 12999.99,
+        "costo" : 10400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5117002,
+        "idCampania" : "2025-05",
+        "pagina" :  65,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5117001,
+        "idCampania" : "2025-05",
+        "pagina" :  65,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5117003,
+        "idCampania" : "2025-05",
+        "pagina" :  65,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110518,
+        "idCampania" : "2025-05",
+        "pagina" :  94,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110520,
+        "idCampania" : "2025-05",
+        "pagina" :  94,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110517,
+        "idCampania" : "2025-05",
+        "pagina" :  94,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111503,
+        "idCampania" : "2025-05",
+        "pagina" :  95,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5110519,
+        "idCampania" : "2025-05",
+        "pagina" :  95,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 511059,
+        "idCampania" : "2025-05",
+        "pagina" :  95,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111502,
+        "idCampania" : "2025-05",
+        "pagina" :  95,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 5499.99,
+        "costo" : 4400,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5080002,
+        "idCampania" : "2025-05",
+        "pagina" :  97,
+        "oferta" : false,
+        "precioNormal": 6300,
+        "precio" : 4499.99,
+        "costo" : 3600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5080007,
+        "idCampania" : "2025-05",
+        "pagina" :  97,
+        "oferta" : false,
+        "precioNormal": 6300,
+        "precio" : 4499.99,
+        "costo" : 3600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5080003,
+        "idCampania" : "2025-05",
+        "pagina" :  97,
+        "oferta" : false,
+        "precioNormal": 6300,
+        "precio" : 4499.99,
+        "costo" : 3600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111111,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111112,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111106,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111104,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116001,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116002,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116005,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116003,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116004,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111107,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111113,
+        "idCampania" : "2025-05",
+        "pagina" :  98,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5111114,
+        "idCampania" : "2025-05",
+        "pagina" :  99,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5116006,
+        "idCampania" : "2025-05",
+        "pagina" :  99,
+        "oferta" : false,
+        "precioNormal": 9100,
+        "precio" : 6499.99,
+        "costo" : 5200,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536009,
+        "idCampania" : "2025-05",
+        "pagina" :  168,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1525001,
+        "idCampania" : "2025-05",
+        "pagina" :  168,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1525002,
+        "idCampania" : "2025-05",
+        "pagina" :  168,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1559505,
+        "idCampania" : "2025-05",
+        "pagina" :  169,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536005,
+        "idCampania" : "2025-05",
+        "pagina" :  169,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1559001,
+        "idCampania" : "2025-05",
+        "pagina" :  169,
+        "oferta" : false,
+        "precioNormal": 28000,
+        "precio" : 19999.99,
+        "costo" : 16000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1120004,
+        "idCampania" : "2025-05",
+        "pagina" :  171,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1120001,
+        "idCampania" : "2025-05",
+        "pagina" :  171,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1555001,
+        "idCampania" : "2025-05",
+        "pagina" :  171,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536003,
+        "idCampania" : "2025-05",
+        "pagina" :  172,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536006,
+        "idCampania" : "2025-05",
+        "pagina" :  172,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536010,
+        "idCampania" : "2025-05",
+        "pagina" :  172,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536002,
+        "idCampania" : "2025-05",
+        "pagina" :  172,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1530020,
+        "idCampania" : "2025-05",
+        "pagina" :  173,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536007,
+        "idCampania" : "2025-05",
+        "pagina" :  173,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536008,
+        "idCampania" : "2025-05",
+        "pagina" :  173,
+        "oferta" : false,
+        "precioNormal": 23800,
+        "precio" : 16999.99,
+        "costo" : 13600,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5201002,
+        "idCampania" : "2025-05",
+        "pagina" :  184,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 5999.99,
+        "costo" : 4800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5201001,
+        "idCampania" : "2025-05",
+        "pagina" :  184,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 5999.99,
+        "costo" : 4800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5201003,
+        "idCampania" : "2025-05",
+        "pagina" :  184,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 5999.99,
+        "costo" : 4800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 5210011,
+        "idCampania" : "2025-05",
+        "pagina" :  185,
+        "oferta" : false,
+        "precioNormal": 9800,
+        "precio" : 5999.99,
+        "costo" : 4800,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536027,
+        "idCampania" : "2025-05",
+        "pagina" :  191,
+        "oferta" : false,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536016,
+        "idCampania" : "2025-05",
+        "pagina" :  193,
+        "oferta" : false,
+        "precioNormal": 42000,
+        "precio" : 29999.99,
+        "costo" : 24000,
+        "nota" :  ""
+    },
+    {
+        "idProducto" : 1536032,
+        "idCampania" : "2025-05",
+        "pagina" :  195,
+        "oferta" : false,
+        "precioNormal": 49000,
+        "precio" : 34999.99,
+        "costo" : 28000,
+        "nota" :  ""
+    }
+]

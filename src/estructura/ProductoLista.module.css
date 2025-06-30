@@ -1,0 +1,16 @@
+.estContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+    /*padding: 20px;*/
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+.estiloTarjeta {
+    flex: 0 0 32%;
+    box-sizing: border-box;
+    padding: 10px;
+}
