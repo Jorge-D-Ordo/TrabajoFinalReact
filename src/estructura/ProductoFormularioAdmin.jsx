@@ -98,6 +98,7 @@ const ProductoFormularioAdmin = ({ onClose }) => {
         if (!nombre.trim()) return alert("⚠️ El nombre es obligatorio.");
         if (precio <= 0) return alert("⚠️ El precio debe ser mayor que cero.");
         if (stock < 0) return alert("⚠️ El stock no puede ser negativo.");
+        if (!descripcion || descripcion.trim().length < 10) return alert("⚠️ La descripción debe tener al menos 10 caracteres.");
 
         try {
             const productoParaEnviar = { ...form };

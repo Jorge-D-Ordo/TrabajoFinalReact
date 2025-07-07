@@ -82,35 +82,20 @@ const TarjetaProductoAdmin = ({ producto }) => {
                     <td><strong>Linea:</strong> {producto.Linea}</td>
                 </tr>
                 <tr>
-                    <td><strong>Alta:</strong> {producto.Alta}</td>
+                    <td><strong></strong> {""}</td>
                     <td colSpan="2"><strong>Presentacion:</strong> {producto.presentacion}</td>
-                    <td><strong>Familia:</strong> {producto.familia}</td>
-                </tr>
-                <tr>
-
-                    <td colSpan="3"><strong>Notas:</strong> {producto.notas}</td>
-
-                </tr>
-                <tr>
-                    <td colSpan="3"><strong>Notas:</strong> {producto.notas}</td>
-                </tr>
-                <tr>
-
-                    <td><strong>Precio:</strong> ${producto.precio.toLocaleString('es-AR')}</td>
-
-
-                    <td><strong>Familia:</strong> {producto.familia}</td>
-                </tr>
-                <tr>
-                    <td colSpan="2">
-                        <p><strong>Notas:</strong> {producto.notas}</p>
-                        <p><strong>Inspiración:</strong> {producto.inspiracion}</p>
-                        <p>{producto.presentacion}</p>
-                    </td>
-                </tr>
-                <tr>
                     <td><strong>Stock:</strong> {producto.stock}</td>
-                    <td colSpan="1">
+                </tr>
+                <tr>
+                    <td><strong></strong> {""}</td>
+                    <td><strong>Uso:</strong> {producto.uso}</td>
+                    <td><strong>Intensiad:</strong> {producto.intensidad}</td>
+                    <td><strong>Precio:</strong> ${producto.precio.toLocaleString('es-AR')}</td>
+                </tr>
+
+                <tr>
+                    <td><strong></strong> {""}</td>
+                    <td >
                         <Botones
                             texto="Editar"
                             color="rgb(100, 42, 194)"
@@ -118,7 +103,7 @@ const TarjetaProductoAdmin = ({ producto }) => {
                             onClick={editarProducto}
                         />
                     </td>
-                    <td colSpan="1">
+                    <td colSpan="2">
                         <Botones
                             texto=" 🗑️ Eliminar 🗑️"
                             color="rgb(100, 42, 194)"
