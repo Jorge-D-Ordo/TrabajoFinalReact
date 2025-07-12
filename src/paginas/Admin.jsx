@@ -1,36 +1,22 @@
 import React, { useEffect, useState, useContext } from "react";
 import Footer from "../estructura/Footer";
-import Aside from "../estructura/Aside";
 import ProductoListaMockApi from "../estructura/ProductoListaMockApi";
 import { AdminContext } from "../context/AdminContext";
 import { useNavigate } from "react-router-dom";
 import est from "./Admin.module.css";
 import ProductoFormularioAdmin from "../estructura/ProductoFormularioAdmin";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import { useAuth } from "../context/AuthContext"; //  Usamos el hook del AuthContext
 
 const Admin = () => {
-    const { setAutenticado, setSeleccionado, seleccionado } = useContext(AdminContext);
+    const { logout } = useAuth(); //  Extraemos logout del contexto de autenticación
+    const { setSeleccionado, seleccionado } = useContext(AdminContext);
     const [filtroNombre, setFiltroNombre] = useState("");
     const [filtroGenero, setFiltroGenero] = useState("");
     const [filtroIDProd, setFiltroIDProd] = useState("");
     const [mostrarFormulario, setMostrarFormulario] = useState(false);
-    const [mostrarMensaje, setMostrarMensaje] = useState(false);
     const navigate = useNavigate();
-
-    const handleSalir = () => {
-        setAutenticado(false);
-        localStorage.removeItem("autenticado");
-    };
-
-    useEffect(() => {
-        const cerrarSesionAlCerrar = () => {
-            setAutenticado(false);
-            localStorage.removeItem("autenticado");
-        };
-        window.addEventListener("beforeunload", cerrarSesionAlCerrar);
-        return () => {
-            window.removeEventListener("beforeunload", cerrarSesionAlCerrar);
-        };
-    }, [setAutenticado]);
 
     const handleAgregar = () => {
         setSeleccionado(null); // modo "agregar"
@@ -38,24 +24,19 @@ const Admin = () => {
     };
 
     const handleCerrarFormulario = () => {
-        setMostrarFormulario(false);
+        setMostrarFormulario(false); // cierre formulario
         setSeleccionado(null);
     };
 
-    const handleExitoAgregar = () => {
-        setMostrarMensaje(true);
-    };
-
-    const handleCerrarMensaje = () => {
-        setMostrarMensaje(false);
-        setMostrarFormulario(false);
-        setSeleccionado(null);
+    const handleSalir = () => {
+        logout(); //  Cerramos sesión usando AuthContext
+        navigate("/", { replace: true });; //  Redirección al inicio
     };
 
     return (
         <div className={est.general}>
             <div className={est.barraEncabezado}>
-                <h1 className={est.h1Variante}>Administración de Productos Mockapi</h1> {/************* */}
+                <h1 className={est.h1Variante}>Administración de Productos Mockapi</h1>
                 <div className={est.controles}>
                     <input
                         type="text"
@@ -100,16 +81,7 @@ const Admin = () => {
             {(mostrarFormulario || seleccionado !== null) && (
                 <div className={est.modalOverlay}>
                     <div className={est.modalContent} style={{ maxHeight: "90vh", overflowY: "auto" }}>
-                        <ProductoFormularioAdmin onClose={handleCerrarFormulario} onSuccess={handleExitoAgregar} />
-                    </div>
-                </div>
-            )}
-
-            {mostrarMensaje && (
-                <div className={est.modalOverlay}>
-                    <div className={est.modalContent}>
-                        <p>✅ Producto agregado correctamente</p>
-                        <button onClick={handleCerrarMensaje}>OK</button>
+                        <ProductoFormularioAdmin onClose={handleCerrarFormulario} />
                     </div>
                 </div>
             )}

@@ -1,10 +1,11 @@
 import { useState, useContext } from 'react'
 import './App.css'
 import { BrowserRouter } from 'react-router-dom';
-import  Ruteo  from './rutas/Ruteo';
+import Ruteo from './rutas/Ruteo';
 import Admin from './paginas/Admin';
-import ProductoFormularioAdmin from './estructura/ProductoFormularioAdmin';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 /* <Route parh='/productos/:id/promo:campania element={<DetalleProducto/> en el uturo para ver detalles admin}  */
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        {/*    <Ruteo  /> */}
-        {/*  <OfertaLista /> */}
-        {/*  <ProductoFormularioAdmin /> */}
-        <Admin />
-      </BrowserRouter>
+      <Ruteo />
+
+      {/*  <OfertaLista /> */}
+      {/*  <Admin /> */}
+
+      <ToastContainer />
+
     </>
   )
 }

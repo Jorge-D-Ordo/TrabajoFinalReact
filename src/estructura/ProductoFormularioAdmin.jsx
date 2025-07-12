@@ -2,6 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { AdminContext } from "../context/AdminContext";
 import est from "./ProductoFormularioAdmin.module.css";
 import jsonBase from "../datos/listaMillanelProductosMockapi.json";
+import { FaSave, FaTimes } from "react-icons/fa";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const ProductoFormularioAdmin = ({ onClose }) => {
     const {
@@ -91,24 +94,35 @@ const ProductoFormularioAdmin = ({ onClose }) => {
         }));
     };
 
+    const validarFormulario = () => {
+        const errores = [];
+
+        if (form.idProd <= 0) errores.push("El ID del producto debe ser mayor que cero.");
+        if (!form.nombre || form.nombre.trim().length < 4) errores.push("El nombre es obligatorio. y al menos 4 caracteres");
+        if (form.precio <= 0) errores.push("El precio debe ser mayor que cero.");
+        if (form.stock < 0) errores.push("El stock no puede ser negativo.");
+        if (!form.descripcion || form.descripcion.trim().length < 10) errores.push("La descripción debe tener al menos 10 caracteres.");
+
+        if (errores.length > 0) {
+            errores.forEach((err) => toast.error("⚠️ " + err));
+            return false;
+        }
+
+        return true;
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const { idProd, nombre, precio, stock } = form;
-        if (idProd <= 0) return alert("⚠️ El precio debe ser mayor que cero.");
-        if (!nombre.trim()) return alert("⚠️ El nombre es obligatorio.");
-        if (precio <= 0) return alert("⚠️ El precio debe ser mayor que cero.");
-        if (stock < 0) return alert("⚠️ El stock no puede ser negativo.");
-        if (!descripcion || descripcion.trim().length < 10) return alert("⚠️ La descripción debe tener al menos 10 caracteres.");
+        if (!validarFormulario()) return;
 
         try {
             const productoParaEnviar = { ...form };
             delete productoParaEnviar.id;
 
             if (form.id) {
-                await actualizarProducto(form);
+                await actualizarProducto(form);// Producto actualizado correctamente
             } else {
-                await agregarProducto(productoParaEnviar);
-
+                await agregarProducto(productoParaEnviar);//Producto agregado correctamente
                 const siguienteIndex = cantidadProductos + 1;
                 if (siguienteIndex < jsonBase.length) {
                     precargarProducto(siguienteIndex);
@@ -120,6 +134,7 @@ const ProductoFormularioAdmin = ({ onClose }) => {
             setSeleccionado(null);
             if (onClose) onClose();
         } catch (error) {
+            toast.error("❌ Error al guardar el producto");
             console.error("Error en submit:", error);
         }
     };
@@ -131,13 +146,13 @@ const ProductoFormularioAdmin = ({ onClose }) => {
 
     return (
         <form className={est.formulario} onSubmit={handleSubmit}>
-            <h3>{form.id ? "✏️ Editar Producto" : "➕ Agregar Producto"}</h3>
+            <h3>{form.id ? "✏️ Editar Producto" : "➕ Agregar Producto"}</h3> // encabezado dependiente del llmado
 
             <label htmlFor="idProd">ID del Producto</label>
             <input id="idProd" name="idProd" type="number" value={form.idProd} onChange={handleChange} required />
 
             <label htmlFor="nombre">Nombre</label>
-            <input id="nombre" name="nombre" value={form.nombre} onChange={handleChange} required />
+            <input id="nombre" name="nombre" value={form.nombre} onChange={handleChange}  />
 
             <label htmlFor="descripcion">Descripción</label>
             <input id="descripcion" name="descripcion" value={form.descripcion} onChange={handleChange} />
@@ -184,8 +199,12 @@ const ProductoFormularioAdmin = ({ onClose }) => {
             <input id="precio" name="precio" type="number" value={form.precio} onChange={handleChange} />
 
             <div className={est.botones}>
-                <button type="submit">{form.id ? "Guardar Cambios" : "Agregar Producto"}</button>
-                <button type="button" onClick={cerrarFormulario}>Cancelar</button>
+                <button type="submit">
+                    <FaSave /> {form.id ? "Guardar Cambios" : "Agregar Producto"}
+                </button>
+                <button type="button" onClick={cerrarFormulario}>
+                    <FaTimes /> Cancelar
+                </button>
             </div>
         </form>
     );

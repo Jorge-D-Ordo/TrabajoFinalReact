@@ -1,0 +1,37 @@
+[
+    {
+        "email": "admin@example.com",
+        "clave": "admin123",
+        "rol": "admin"
+    },
+    {
+        "email": "client@example.com",
+        "clave": "cliente123",
+        "rol": "cliente"
+    },
+    {
+        "email": "",
+        "clave": "",
+        "rol": "invitado"
+    },
+    {
+        "email": "dan@gmail.com",
+        "clave": "1234",
+        "rol": "admin"
+    },
+    {
+        "email": "her@gmail.com",
+        "clave": "1234",
+        "rol": "cliente"
+    },
+    {
+        "email": "1",
+        "clave": "1",
+        "rol": "admin"
+    },
+    {
+        "email": "2",
+        "clave": "2",
+        "rol": "cliente"
+    }
+]
