@@ -1,10 +1,35 @@
 .contenedorLista {
     padding: 1rem;
+    background-color: #fff;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.gridTarjetas {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
+.tituloLista {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #3a3a3a;
+}
+
+.mensaje {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .tituloLista {
+        font-size: 1.4rem;
+    }
+
+    .contenedorLista {
+        padding: 0.5rem;
+    }
+
+    .mensaje {
+        font-size: 0.9rem;
+    }
 }

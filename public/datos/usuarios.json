@@ -25,13 +25,13 @@
         "rol": "cliente"
     },
     {
-        "email": "1",
-        "clave": "1",
+        "email": "11",
+        "clave": "11",
         "rol": "admin"
     },
     {
-        "email": "2",
-        "clave": "2",
+        "email": "22",
+        "clave": "22",
         "rol": "cliente"
     }
 ]

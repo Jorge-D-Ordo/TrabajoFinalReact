@@ -1,87 +1,66 @@
-.general {
-    padding-top: 115px;
-    background: -webkit-linear-gradient(121deg, #efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
-
+.admin-wrapper {
+    background: linear-gradient(121deg, #efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
+    min-height: 100vh;
 }
 
-.contenedor {
-    display: flex;
-}
-
-.contenido1 {
-    flex: 3;
-    margin: 0px;
-}
-
-.contenido2 {
-    flex: 1;
-    background-color: #f9e8fd;
-}
-
-.h1Variante {
-    text-align: center;
-    font-family: "Playwrite AR", serif;
-    font-size: 1.9rem;
-    font-weight: 800;
-    padding-top: 10px;
-}
-
-
-
-
-
-
-
-
-.modalOverlay {
+/* Hacemos el header fijo */
+.headerSticky {
+    background-color: yellow;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    /* Oscurecer fondo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    right: 0;
     z-index: 1000;
-    padding: 1rem;
-    overflow-y: auto;
-}
-
-.modalContent {
-    background: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px;
-    height: 70vh;
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-    animation: slideIn 0.3s ease-out;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
 }
 
-/* Animación de entrada */
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+/* Este margin-top compensa el alto del header */
+.mainContent {
+    margin-top: 140px; /* ajusta según altura real del header */
 }
 
-/* Responsive: ajusta el modal para pantallas pequeñas */
-@media (max-width: 600px) {
-    .modalContent {
-        padding: 1rem;
-        width: 100%;
-        max-width: 100%;
-        max-height: 95vh;
+.adminTitle {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.inputSmall {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.btnSm {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .adminTitle {
+        font-size: 1.0rem;
+    }
+
+    .inputSmall {
+        font-size: 0.75rem !important;
+        padding: 0.3rem 0.5rem !important;
+    }
+
+    .btnSm {
+        font-size: 0.75rem !important;
+        padding: 0.3rem 0.5rem !important;
+    }
+
+    .btnRowMobile {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 0.5rem !important;
+        flex-wrap: wrap;
+    }
+
+    .mainContent {
+        margin-top: 170px; /* más espacio si header se ve más alto en móviles */
     }
 }

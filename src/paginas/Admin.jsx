@@ -1,16 +1,16 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useState, useContext } from "react";
 import Footer from "../estructura/Footer";
 import ProductoListaMockApi from "../estructura/ProductoListaMockApi";
 import { AdminContext } from "../context/AdminContext";
 import { useNavigate } from "react-router-dom";
-import est from "./Admin.module.css";
 import ProductoFormularioAdmin from "../estructura/ProductoFormularioAdmin";
-import { toast } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
-import { useAuth } from "../context/AuthContext"; //  Usamos el hook del AuthContext
+import { useAuth } from "../context/AuthContext";
+
+import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
+import styles from "./Admin.module.css";
 
 const Admin = () => {
-    const { logout } = useAuth(); //  Extraemos logout del contexto de autenticación
+    const { logout } = useAuth();
     const { setSeleccionado, seleccionado } = useContext(AdminContext);
     const [filtroNombre, setFiltroNombre] = useState("");
     const [filtroGenero, setFiltroGenero] = useState("");
@@ -19,74 +19,117 @@ const Admin = () => {
     const navigate = useNavigate();
 
     const handleAgregar = () => {
-        setSeleccionado(null); // modo "agregar"
+        setSeleccionado(null);
         setMostrarFormulario(true);
     };
 
     const handleCerrarFormulario = () => {
-        setMostrarFormulario(false); // cierre formulario
+        setMostrarFormulario(false);
         setSeleccionado(null);
     };
 
     const handleSalir = () => {
-        logout(); //  Cerramos sesión usando AuthContext
-        navigate("/", { replace: true });; //  Redirección al inicio
+        logout();
+        navigate("/", { replace: true });
     };
 
     return (
-        <div className={est.general}>
-            <div className={est.barraEncabezado}>
-                <h1 className={est.h1Variante}>Administración de Productos Mockapi</h1>
-                <div className={est.controles}>
-                    <input
-                        type="text"
-                        placeholder="🔎 Filtrar por IDProd..."
-                        value={filtroIDProd}
-                        onChange={(e) => setFiltroIDProd(e.target.value)}
-                        className={est.inputFiltro}
-                    />
-                    <input
-                        type="text"
-                        placeholder="🔍 Filtrar por nombre..."
-                        value={filtroNombre}
-                        onChange={(e) => setFiltroNombre(e.target.value)}
-                        className={est.inputFiltro}
-                    />
-                    <select
-                        value={filtroGenero}
-                        onChange={(e) => setFiltroGenero(e.target.value)}
-                        className={est.inputFiltro}
-                    >
-                        <option value="">Todos los géneros</option>
-                        <option value="Femenino">Femenino</option>
-                        <option value="Masculino">Masculino</option>
-                        <option value="Ambos">Ambos</option>
-                    </select>
-                    <button onClick={handleAgregar} className={est.boton}>➕ Agregar Producto</button>
-                    <button onClick={handleSalir} className={est.botonSalir}>🚪 Salir</button>
-                </div>
-            </div>
+        <div className={styles.adminWrapper}>
+            <header className={styles.headerSticky}>
+                <Container fluid>
+                    <Row>
+                        <Col>
+                            <h1 className={styles.adminTitle}>Administración de Productos Mockapi</h1>
+                        </Col>
+                    </Row>
 
-            <div className={est.contenedor}>
-                <main className={est.contenido1}>
-                    <ProductoListaMockApi
-                        filtroNombre={filtroNombre}
-                        filtroGenero={filtroGenero}
-                        filtroIDProd={filtroIDProd}
-                        setMostrarFormulario={setMostrarFormulario}
-                    />
-                </main>
-            </div>
+                    <Row className="justify-content-center">
+                        <Col xs={12} md={10}>
+                            <Row>
+                                <Col xs={12} md={4} className="mb-2">
+                                    <Form.Control
+                                        type="text"
+                                        placeholder="🔎 Filtrar por IDProd..."
+                                        value={filtroIDProd}
+                                        onChange={(e) => setFiltroIDProd(e.target.value)}
+                                        className={styles.inputSmall}
+                                    />
+                                </Col>
+                                <Col xs={12} md={4} className="mb-2">
+                                    <Form.Control
+                                        type="text"
+                                        placeholder="🔍 Filtrar por nombre..."
+                                        value={filtroNombre}
+                                        onChange={(e) => setFiltroNombre(e.target.value)}
+                                        className={styles.inputSmall}
+                                    />
+                                </Col>
+                                <Col xs={12} md={4} className="mb-2">
+                                    <Form.Select
+                                        value={filtroGenero}
+                                        onChange={(e) => setFiltroGenero(e.target.value)}
+                                        className={styles.inputSmall}
+                                    >
+                                        <option value="">Todos los géneros</option>
+                                        <option value="Femenino">Femenino</option>
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Ambos">Ambos</option>
+                                    </Form.Select>
+                                </Col>
+                            </Row>
 
-            {(mostrarFormulario || seleccionado !== null) && (
-                <div className={est.modalOverlay}>
-                    <div className={est.modalContent} style={{ maxHeight: "90vh", overflowY: "auto" }}>
+                            <Row className="mt-2">
+                                <Col className={`d-flex ${styles.btnRowMobile}`}>
+                                    <Button
+                                        variant="success"
+                                        onClick={handleAgregar}
+                                        className={styles.btnSm}
+                                    >
+                                        ➕ Agregar
+                                    </Button>
+                                    <Button
+                                        variant="danger"
+                                        onClick={handleSalir}
+                                        className={styles.btnSm}
+                                    >
+                                        🚪 Salir
+                                    </Button>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
+            </header>
+
+            <Container fluid className={`py-4 ${styles.mainContent}`}>
+                <Row>
+                    <Col>
+                        <ProductoListaMockApi
+                            filtroNombre={filtroNombre}
+                            filtroGenero={filtroGenero}
+                            filtroIDProd={filtroIDProd}
+                            setMostrarFormulario={setMostrarFormulario}
+                        />
+                    </Col>
+                </Row>
+
+                <Modal
+                    show={mostrarFormulario || seleccionado !== null}
+                    onHide={handleCerrarFormulario}
+                    size="lg"
+                    scrollable
+                    centered
+                >
+                    <Modal.Header closeButton>
+                        <Modal.Title>{seleccionado ? "Editar Producto" : "Agregar Producto"}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
                         <ProductoFormularioAdmin onClose={handleCerrarFormulario} />
-                    </div>
-                </div>
-            )}
+                    </Modal.Body>
+                </Modal>
 
-            <Footer />
+                <Footer />
+            </Container>
         </div>
     );
 };
