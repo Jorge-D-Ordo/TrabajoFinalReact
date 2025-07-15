@@ -1,0 +1,22 @@
+.botonGenerico {
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 576px) {
+  .botonGenerico {
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    border-radius: 8px;
+    min-width: 60px;
+    width: auto !important;
+  }
+}

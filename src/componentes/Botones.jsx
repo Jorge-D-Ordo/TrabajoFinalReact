@@ -1,21 +1,21 @@
-import React from 'react'
+import React from 'react';
+import estilos from './Botones.module.css';
 
-const Botones = ({texto, color, ancho, onClick}) => {
-    let estilo = {
-        backgroundColor: color,
-        width: ancho,
-        color: 'white',
-        fontWeight: '600',
-        border: 'none',
-        padding: '8px 4px',
-        borderRadius: '10px',
-        cursor: 'pointer',
-        margin: '0 5px',
-    }
+const Botones = ({ texto, color, ancho, onClick }) => {
+  const estiloInline = {
+    backgroundColor: color,
+    width: ancho,
+  };
 
-    return (
-        <button style={estilo} onClick={onClick}>{texto}</button>
-    );
+  return (
+    <button
+      className={estilos.botonGenerico}
+      style={estiloInline}
+      onClick={onClick}
+    >
+      {texto}
+    </button>
+  );
 };
 
 export default Botones;

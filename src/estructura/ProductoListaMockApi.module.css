@@ -1,10 +1,13 @@
+/* contenedor de todo */
 .contenedorLista {
     padding: 1rem;
     background-color: #fff;
     max-width: 1400px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
+/* título */
 .tituloLista {
     font-size: 1.8rem;
     font-weight: bold;
@@ -19,8 +22,46 @@
     color: #555;
 }
 
-/* Ajustes para móviles */
-@media (max-width: 768px) {
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* grilla general */
+.gridProductos {
+    display: grid;
+    grid-template-columns: 1fr; /* mobile */
+    gap: 1rem;
+}
+
+/* contenedor de cada tarjeta */
+.cardWrapper {
+    width: 100%;
+}
+
+/* Tablet: una tarjeta por fila, apaisada */
+@media (min-width: 576px) {
+    .gridProductos {
+        grid-template-columns: 1fr;
+    }
+
+    .cardWrapper > * {
+        flex-direction: row; /* for apaisado layout */
+    }
+}
+
+/* Escritorio: dos por fila, apaisadas */
+@media (min-width: 992px) {
+    .gridProductos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Ajustes móviles vertical */
+@media (max-width: 575px) {
     .tituloLista {
         font-size: 1.4rem;
     }
@@ -31,5 +72,9 @@
 
     .mensaje {
         font-size: 0.9rem;
+    }
+
+    .cardWrapper > * {
+        flex-direction: column; /* diseño vertical */
     }
 }

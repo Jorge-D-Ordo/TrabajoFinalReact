@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import ProductoFormularioAdmin from "../estructura/ProductoFormularioAdmin";
 import { useAuth } from "../context/AuthContext";
 
-import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
+import { Form, Button, Modal, Row, Col } from "react-bootstrap";
 import styles from "./Admin.module.css";
 
 const Admin = () => {
@@ -36,12 +36,8 @@ const Admin = () => {
     return (
         <div className={styles.adminWrapper}>
             <header className={styles.headerSticky}>
-                <Container fluid>
-                    <Row>
-                        <Col>
-                            <h1 className={styles.adminTitle}>Administración de Productos Mockapi</h1>
-                        </Col>
-                    </Row>
+                <div className={styles.fullWidthContainer}>
+                    <h1 className={styles.adminTitle}>Administración de Productos Mockapi</h1>
 
                     <Row className="justify-content-center">
                         <Col xs={12} md={10}>
@@ -78,7 +74,7 @@ const Admin = () => {
                                 </Col>
                             </Row>
 
-                            <Row className="mt-2">
+                            <Row>
                                 <Col className={`d-flex ${styles.btnRowMobile}`}>
                                     <Button
                                         variant="success"
@@ -98,38 +94,38 @@ const Admin = () => {
                             </Row>
                         </Col>
                     </Row>
-                </Container>
+                </div>
             </header>
 
-            <Container fluid className={`py-4 ${styles.mainContent}`}>
-                <Row>
-                    <Col>
-                        <ProductoListaMockApi
-                            filtroNombre={filtroNombre}
-                            filtroGenero={filtroGenero}
-                            filtroIDProd={filtroIDProd}
-                            setMostrarFormulario={setMostrarFormulario}
-                        />
-                    </Col>
-                </Row>
+            <div className={styles.mainContent}>
+                <div className={styles.fullWidthContainer}>
+                    <ProductoListaMockApi
+                        filtroNombre={filtroNombre}
+                        filtroGenero={filtroGenero}
+                        filtroIDProd={filtroIDProd}
+                        setMostrarFormulario={setMostrarFormulario}
+                    />
 
-                <Modal
-                    show={mostrarFormulario || seleccionado !== null}
-                    onHide={handleCerrarFormulario}
-                    size="lg"
-                    scrollable
-                    centered
-                >
-                    <Modal.Header closeButton>
-                        <Modal.Title>{seleccionado ? "Editar Producto" : "Agregar Producto"}</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                        <ProductoFormularioAdmin onClose={handleCerrarFormulario} />
-                    </Modal.Body>
-                </Modal>
+                    <Modal
+                        show={mostrarFormulario || seleccionado !== null}
+                        onHide={handleCerrarFormulario}
+                        size="lg"
+                        scrollable
+                        centered
+                    >
+                        <Modal.Header closeButton>
+                            <Modal.Title>
+                                {seleccionado ? "Editar Producto" : "Agregar Producto"}
+                            </Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body>
+                            <ProductoFormularioAdmin onClose={handleCerrarFormulario} />
+                        </Modal.Body>
+                    </Modal>
 
-                <Footer />
-            </Container>
+                    <Footer />
+                </div>
+            </div>
         </div>
     );
 };
