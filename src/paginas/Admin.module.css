@@ -1,38 +1,40 @@
 .adminWrapper {
-    background: linear-gradient(121deg, #efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%);
+    background: linear-gradient(121deg, #efb3ff 0%, #f2d6f8 16%, #efb3ff 33%, #f2d6f8 50%, #efb3ff 67%, #f2d6f8 84%, #efb3ff 100%); 
     min-height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     overflow-x: hidden; /* previene desbordes */
+    overflow-x: hidden; /* previene desbordes */
 }
 
 /* Header fijo */
 .headerSticky {
-    background-color: cyan;
+    background-color: #ea98ff;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 0.9rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
 
-/* Contenedor que sí usa 100% real del ancho */
+/* Contenedor ancho completo */
 .fullWidthContainer {
     width: 100%;
     max-width: 100vw;
     margin: 0;
     padding: 0 12px;
     box-sizing: border-box;
+    background-color: transparent;
+
 }
 
 /* Compensación por el header fijo */
 .mainContent {
-    margin-top: 140px;
+    margin-top: 180px;
     width: 100%;
     max-width: 100%;
     padding: 0;
@@ -47,13 +49,15 @@
 }
 
 .inputSmall {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.5rem 0.75rem;
 }
 
+/* Este estilo se aplicaba a los botones de React-Bootstrap, puedes eliminarlo si ya no usás esos botones */
 .btnSm {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    /* ❌ Este estilo ya no es necesario si usás Botones.jsx */
 }
 
 .btnRowMobile {
@@ -63,6 +67,7 @@
     flex-wrap: wrap;
 }
 
+/* Estilos para pantallas chicas */
 @media (max-width: 768px) {
     .headerSticky {
         padding: 0.5rem 0;
@@ -77,12 +82,14 @@
         padding: 0.2rem 0.5rem !important;
     }
 
+    /* ❌ Este bloque puede eliminarse si no usás más btnSm con React-Bootstrap */
     .btnSm {
         font-size: 0.7rem !important;
         padding: 0.2rem 0.4rem !important;
+        background-color: rgb(100, 42, 194) !important;
     }
 
     .mainContent {
-        margin-top: 170px;
+        margin-top: 190px;
     }
 }

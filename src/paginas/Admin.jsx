@@ -6,8 +6,9 @@ import { useNavigate } from "react-router-dom";
 import ProductoFormularioAdmin from "../estructura/ProductoFormularioAdmin";
 import { useAuth } from "../context/AuthContext";
 
-import { Form, Button, Modal, Row, Col } from "react-bootstrap";
+import { Form, Modal, Row, Col } from "react-bootstrap";
 import styles from "./Admin.module.css";
+import Botones from "../componentes/Botones"; // ✅ botón personalizado
 
 const Admin = () => {
     const { logout } = useAuth();
@@ -42,7 +43,7 @@ const Admin = () => {
                     <Row className="justify-content-center">
                         <Col xs={12} md={10}>
                             <Row>
-                                <Col xs={12} md={4} className="mb-2">
+                                <Col xs={12} sm={4} className="mb-2">
                                     <Form.Control
                                         type="text"
                                         placeholder="🔎 Filtrar por IDProd..."
@@ -51,7 +52,7 @@ const Admin = () => {
                                         className={styles.inputSmall}
                                     />
                                 </Col>
-                                <Col xs={12} md={4} className="mb-2">
+                                <Col xs={12} sm={4} className="mb-2">
                                     <Form.Control
                                         type="text"
                                         placeholder="🔍 Filtrar por nombre..."
@@ -60,7 +61,7 @@ const Admin = () => {
                                         className={styles.inputSmall}
                                     />
                                 </Col>
-                                <Col xs={12} md={4} className="mb-2">
+                                <Col xs={12} sm={4} className="mb-2">
                                     <Form.Select
                                         value={filtroGenero}
                                         onChange={(e) => setFiltroGenero(e.target.value)}
@@ -76,20 +77,18 @@ const Admin = () => {
 
                             <Row>
                                 <Col className={`d-flex ${styles.btnRowMobile}`}>
-                                    <Button
-                                        variant="success"
+                                    <Botones
+                                        texto="➕ Agregar"
+                                        color="rgb(100, 42, 194)"
+                                        ancho="120px"
                                         onClick={handleAgregar}
-                                        className={styles.btnSm}
-                                    >
-                                        ➕ Agregar
-                                    </Button>
-                                    <Button
-                                        variant="danger"
+                                    />
+                                    <Botones
+                                        texto="🚪 Salir"
+                                        color= "rgba(202, 87, 236, 1)"   
+                                        ancho="120px"
                                         onClick={handleSalir}
-                                        className={styles.btnSm}
-                                    >
-                                        🚪 Salir
-                                    </Button>
+                                    />
                                 </Col>
                             </Row>
                         </Col>

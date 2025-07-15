@@ -33,31 +33,16 @@ const TarjetaProductoAdmin = ({ producto }) => {
     return (
         <Card className={`${est.tarjetaTabla} mb-3`} onClick={irADetalle}>
             <Card.Header className={est.titulo}>{producto.nombre}</Card.Header>
-            <Card.Body className={est.cuerpoTarjeta}>
 
-                {/* Imágenes en fila solo visibles en móviles */}
+            <Card.Body className={est.cuerpoTarjeta}>
                 <div className={est.imagenesFilaMobile}>
-                    <img
-                        src={`/datos/millanelProductos/${producto.imagen1}`}
-                        alt="img1"
-                        loading="lazy"
-                    />
-                    <img
-                        src={`/datos/millanelProductos/${producto.imagen2}`}
-                        alt="img2"
-                        loading="lazy"
-                    />
+                    <img src={`/datos/millanelProductos/${producto.imagen1}`} alt="img1" loading="lazy" />
+                    <img src={`/datos/millanelProductos/${producto.imagen2}`} alt="img2" loading="lazy" />
                 </div>
 
-                {/* Diseño apaisado: imágenes grandes solo en pantallas medianas o más grandes */}
                 <Row className={est.ocultarEnMobile}>
                     <Col xs={12} sm={4} className={est.imagenCol}>
-                        <img
-                            src={`/datos/millanelProductos/${producto.imagen1}`}
-                            alt="Producto"
-                            className={est.imagen}
-                            loading="lazy"
-                        />
+                        <img src={`/datos/millanelProductos/${producto.imagen1}`} alt="Producto" className={est.imagen} loading="lazy" />
                     </Col>
                     <Col xs={12} sm={8}>
                         <Row><Col><strong>CodProd:</strong> {producto.idProd}</Col></Row>
@@ -69,12 +54,7 @@ const TarjetaProductoAdmin = ({ producto }) => {
 
                 <Row className={est.ocultarEnMobile}>
                     <Col xs={12} sm={4} className={est.imagenCol}>
-                        <img
-                            src={`/datos/millanelProductos/${producto.imagen2}`}
-                            alt="Producto"
-                            className={est.imagen}
-                            loading="lazy"
-                        />
+                        <img src={`/datos/millanelProductos/${producto.imagen2}`} alt="Producto" className={est.imagen} loading="lazy" />
                     </Col>
                     <Col xs={12} sm={8}>
                         <Row><Col><strong>Notas:</strong> {producto.notas}</Col></Row>
@@ -83,7 +63,6 @@ const TarjetaProductoAdmin = ({ producto }) => {
                     </Col>
                 </Row>
 
-                {/* Textos verticales solo visibles en móviles */}
                 <div className="d-sm-none">
                     <div className={est.textoBloqueMobile}><strong>CodProd:</strong> {producto.idProd}</div>
                     <div className={est.textoBloqueMobile}><strong>Género:</strong> {producto.genero}</div>
@@ -94,7 +73,6 @@ const TarjetaProductoAdmin = ({ producto }) => {
                     <div className={est.textoBloqueMobile}><strong>Línea:</strong> {producto.Linea}</div>
                 </div>
 
-                {/* Información adicional del producto */}
                 <Row className="mt-2">
                     <Col xs={12} md={4}><strong>Presentación:</strong> {producto.presentacion}</Col>
                     <Col xs={12} md={4}><strong>Stock:</strong> {producto.stock}</Col>
@@ -103,28 +81,10 @@ const TarjetaProductoAdmin = ({ producto }) => {
                     <Col xs={12} md={4}><strong>Precio:</strong> ${producto.precio.toLocaleString('es-AR')}</Col>
                 </Row>
 
-                {/* Botones (menos espacio abajo) */}
-                <Row className={`mt-3 justify-content-center ${est.botonesRow}`}>
-                    <Col xs="auto" style={{paddingBottom: 0}}>
-                        <Botones
-                            texto="Editar"
-                            color="rgb(100, 42, 194)"
-                            ancho="120px"
-                            className={est.botonResponsive}
-                            onClick={editarProducto}
-                        />
-                    </Col>
-                    <Col xs="auto" style={{paddingBottom: 0}}>
-                        <Botones
-                            texto="🗑️ Eliminar"
-                            color="rgb(100, 42, 194)"
-                            ancho="120px"
-                            className={est.botonResponsive}
-                            onClick={eliminarProductoConfirmado}
-                        />
-                    </Col>
-                </Row>
-
+                <div className={est.footerTarjeta}>
+                    <Botones texto="Editar" color="rgb(100, 42, 194)" ancho="120px" className={est.botonResponsive} onClick={editarProducto} />
+                    <Botones texto="🗑️ Eliminar" color="rgb(100, 42, 194)" ancho="120px" className={est.botonResponsive} onClick={eliminarProductoConfirmado} />
+                </div>
             </Card.Body>
         </Card>
     );
