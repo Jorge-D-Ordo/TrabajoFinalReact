@@ -5,6 +5,8 @@ import jsonBase from "../datos/listaMillanelProductosMockapi.json";
 import { FaSave, FaTimes } from "react-icons/fa";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import { Container, Form, Row, Col} from "react-bootstrap";
+import Botones from "../componentes/Botones";
 
 const ProductoFormularioAdmin = ({ onClose }) => {
     const {
@@ -145,69 +147,247 @@ const ProductoFormularioAdmin = ({ onClose }) => {
     };
 
     return (
-        <form className={est.formulario} onSubmit={handleSubmit}>
-            <h3>{form.id ? "✏️ Editar Producto" : "➕ Agregar Producto"}</h3> // encabezado dependiente del llmado
+        <Container>
+            <Form className={est.formulario} onSubmit={handleSubmit}>
+               
 
-            <label htmlFor="idProd">ID del Producto</label>
-            <input id="idProd" name="idProd" type="number" value={form.idProd} onChange={handleChange} required />
+                {/* Cada fila tiene label e input en la misma línea en desktop, vertical en mobile */}
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">ID del Producto</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            type="number"
+                            name="idProd"
+                            value={form.idProd}
+                            onChange={handleChange}
+                            size="sm"
+                            required
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="nombre">Nombre</label>
-            <input id="nombre" name="nombre" value={form.nombre} onChange={handleChange}  />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Nombre</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="nombre"
+                            value={form.nombre}
+                            onChange={handleChange}
+                            size="sm"
+                            required
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="descripcion">Descripción</label>
-            <input id="descripcion" name="descripcion" value={form.descripcion} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Descripción</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="descripcion"
+                            value={form.descripcion}
+                            onChange={handleChange}
+                            size="sm"
+                            required
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="presentacion">Presentación</label>
-            <input id="presentacion" name="presentacion" value={form.presentacion} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Presentación</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="presentacion"
+                            value={form.presentacion}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="Linea">Línea</label>
-            <input id="Linea" name="Linea" value={form.Linea} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Línea</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="Linea"
+                            value={form.Linea}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="imagen1">Imagen 1</label>
-            <input id="imagen1" name="imagen1" value={form.imagen1} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Imagen 1</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="imagen1"
+                            value={form.imagen1}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="imagen2">Imagen 2</label>
-            <input id="imagen2" name="imagen2" value={form.imagen2} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Imagen 2</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="imagen2"
+                            value={form.imagen2}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="genero">Género</label>
-            <select id="genero" name="genero" value={form.genero} onChange={handleChange}>
-                <option value="">Seleccione...</option>
-                <option value="Femenino">Femenino</option>
-                <option value="Masculino">Masculino</option>
-                <option value="Ambos">Ambos</option>
-            </select>
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Género</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Select
+                            name="genero"
+                            value={form.genero}
+                            onChange={handleChange}
+                            size="sm"
+                        >
+                            <option value="">Seleccione...</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Ambos">Ambos</option>
+                        </Form.Select>
+                    </Col>
+                </Row>
 
-            <label htmlFor="familia">Familia</label>
-            <input id="familia" name="familia" value={form.familia} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Familia</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="familia"
+                            value={form.familia}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="notas">Notas</label>
-            <input id="notas" name="notas" value={form.notas} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Notas</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="notas"
+                            value={form.notas}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="inspiracion">Inspiración</label>
-            <input id="inspiracion" name="inspiracion" value={form.inspiracion} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Inspiración</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="inspiracion"
+                            value={form.inspiracion}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="intensidad">Intensidad</label>
-            <input id="intensidad" name="intensidad" value={form.intensidad} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Intensidad</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="intensidad"
+                            value={form.intensidad}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="uso">Uso</label>
-            <input id="uso" name="uso" value={form.uso} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Uso</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            name="uso"
+                            value={form.uso}
+                            onChange={handleChange}
+                            size="sm"
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="stock">Stock</label>
-            <input id="stock" name="stock" type="number" value={form.stock} onChange={handleChange} />
+                <Row className="align-items-center">
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Stock</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            type="number"
+                            name="stock"
+                            value={form.stock}
+                            onChange={handleChange}
+                            size="sm"
+                            min={0}
+                        />
+                    </Col>
+                </Row>
 
-            <label htmlFor="precio">Precio</label>
-            <input id="precio" name="precio" type="number" value={form.precio} onChange={handleChange} />
+                <Row >
+                    <Col xs={12} md={3}>
+                        <Form.Label className="mb-0">Precio</Form.Label>
+                    </Col>
+                    <Col xs={12} md={9}>
+                        <Form.Control
+                            type="number"
+                            name="precio"
+                            value={form.precio}
+                            onChange={handleChange}
+                            size="sm"
+                            min={0}
+                            step="0.01"
+                        />
+                    </Col>
+                </Row>
 
-            <div className={est.botones}>
-                <button type="submit">
-                    <FaSave /> {form.id ? "Guardar Cambios" : "Agregar Producto"}
-                </button>
-                <button type="button" onClick={cerrarFormulario}>
-                    <FaTimes /> Cancelar
-                </button>
-            </div>
-        </form>
+                <Row className="mt-4">
+                    <Col xs={6} className="d-flex justify-content-end pe-1">
+                        <Botones texto="Guardar" color="rgb(100, 42, 194)" ancho="50%" type="submit" />
+                    </Col>
+                    <Col xs={6} className="d-flex justify-content-start ps-1">
+                        <Botones texto="Cerrar" color="rgba(202, 87, 236, 1)" ancho="50%" onClick={cerrarFormulario} />
+                    </Col>
+                </Row>
+            </Form>
+        </Container>
     );
 };
+
 
 export default ProductoFormularioAdmin;

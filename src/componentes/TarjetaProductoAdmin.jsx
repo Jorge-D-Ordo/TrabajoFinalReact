@@ -82,8 +82,8 @@ const TarjetaProductoAdmin = ({ producto }) => {
                 </Row>
 
                 <div className={est.footerTarjeta}>
-                    <Botones texto="Editar" color="rgb(100, 42, 194)" ancho="120px" className={est.botonResponsive} onClick={editarProducto} />
-                    <Botones texto="🗑️ Eliminar" color="rgb(100, 42, 194)" ancho="120px" className={est.botonResponsive} onClick={eliminarProductoConfirmado} />
+                    <Botones texto="✏️ Editar" color="rgb(100, 42, 194)" ancho="120px" onClick={editarProducto} />
+                    <Botones texto="🗑️ Eliminar" color="rgba(202, 87, 236, 1)" ancho="120px" onClick={eliminarProductoConfirmado} />
                 </div>
             </Card.Body>
         </Card>
