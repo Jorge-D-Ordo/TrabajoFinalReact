@@ -6,7 +6,7 @@ import Footer from '../estructura/Footer';
 const Nosotros = () => {
     const containerStyle = {
         display: 'flex',
-        paddingTop: '115px',
+        paddingTop: '160px',
         padding: '20px',
         gap: '10px',          
     };

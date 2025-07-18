@@ -153,7 +153,7 @@ const Contacto = () => {
     return (
         <>
             <Header />
-            <div style={{ paddingTop: '115px' }}>
+            <div style={{ paddingTop: '160px' }}>
                 <h1>Contactos</h1>
                 <h2>Podrás consultar tus dudas</h2>
             </div>
