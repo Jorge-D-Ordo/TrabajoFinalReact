@@ -31,6 +31,13 @@
     outline: none;
 }
 
+.formularioBotones {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    /* Espacio para que no queden pegados abajo */
+}
+
+
 @media (max-width: 576px) {
     .formulario {
         font-size: 0.75rem !important;
@@ -44,5 +51,10 @@
         padding: 6px;
     }
 
-
+    .formularioBotones {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+        padding-bottom: 1rem;
+    }
 }

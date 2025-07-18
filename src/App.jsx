@@ -1,5 +1,4 @@
 import { useState, useContext } from 'react'
-import './App.css'
 import { BrowserRouter } from 'react-router-dom';
 import Ruteo from './rutas/Ruteo';
 import Admin from './paginas/Admin';

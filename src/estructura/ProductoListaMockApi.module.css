@@ -69,7 +69,7 @@
 /* Ajustes móviles vertical */
 @media (max-width: 575px) {
     .tituloLista {
-        font-size: 1.4rem;
+        font-size: 0.9rem;
     }
 
     .contenedorLista {

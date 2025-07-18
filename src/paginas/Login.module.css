@@ -1,0 +1,49 @@
+.mainLogin {
+    padding-top: calc(90px + 5vw);
+    /*min-height: 70vh;*/
+    background: linear-gradient(135deg, #f2d6f8, #efb3ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    padding-bottom: 20px;
+    color: #4a004e;
+}
+
+.estado {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    padding: 30px;
+}
+
+/* Tarjeta visual donde está el formulario */
+.loginCard {
+    background-color: rgb(233, 225, 248);
+    border: 2px solid rgb(100, 42, 194);
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 575px) {
+    .titulo {
+        font-size: 1.0rem;
+    }
+
+    .estado {
+        font-size: 1rem;
+    }
+
+    .loginCard {
+        padding: 15px 15px;
+    }
+}

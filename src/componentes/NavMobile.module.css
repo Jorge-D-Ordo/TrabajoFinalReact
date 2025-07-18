@@ -1,0 +1,53 @@
+.navBar {
+    background-color: #ea98ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+     flex-wrap: wrap;
+    /*border-top: 2px solid #c26be0;*/
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.carritoBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.carritoIcon {
+    width: 1.4rem;
+    height: auto;
+}
+
+.menuBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 0;
+    font-size: 0.9rem; /* icono FaBars / FaTimes */
+}
+
+.menuDesplegable {
+    background-color: #f4d7ff;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-top: 1px solid #c26be0;
+}
+
+.menuItem {
+    display: block;
+    padding: 0.5rem 0;
+    color: black;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+}

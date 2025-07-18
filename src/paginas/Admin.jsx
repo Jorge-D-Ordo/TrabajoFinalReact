@@ -8,7 +8,7 @@ import { useAuth } from "../context/AuthContext";
 
 import { Form, Modal, Row, Col } from "react-bootstrap";
 import styles from "./Admin.module.css";
-import Botones from "../componentes/Botones"; // ✅ botón personalizado
+import Botones from "../componentes/Botones"; 
 
 const Admin = () => {
     const { logout } = useAuth();
@@ -43,67 +43,58 @@ const Admin = () => {
                 <div className={styles.fullWidthContainer}>
                     <h1 className={styles.adminTitle}>Administración de Productos Mockapi</h1>
 
-                    <Row className="align-items-center mb-2">
-                        <Col xs="auto">
+                    <div className={styles.controlContainer}>
+                        {/* Hamburguesa y botones en la misma fila */}
+                        <div className={styles.btnRowMobile}>
                             <Botones
                                 texto="➕ Agregar"
                                 color="rgb(100, 42, 194)"
                                 ancho="100px"
                                 onClick={handleAgregar}
                             />
-                        </Col>
-                        <Col xs="auto">
                             <Botones
                                 texto="🚪 Salir"
                                 color="rgba(202, 87, 236, 1)"
                                 ancho="100px"
                                 onClick={handleSalir}
                             />
-                        </Col>
-                        <Col className="text-end d-sm-none">
-                            <button className={styles.hamburguesaBtn} onClick={toggleMenuFiltros}>
-                                ☰
-                            </button>
-                        </Col>
-                    </Row>
+                            <label htmlFor="toggleFiltros" className={styles.hamburguesaBtn}>☰</label>
+                        </div>
 
-                    {/* Filtros colapsables en mobile */}
-                    {(menuFiltrosVisible || window.innerWidth >= 576) && (
-                        <Row>
-                            <Col xs={12} sm={4} className="mb-2">
-                                <Form.Control
-                                    type="text"
-                                    placeholder="🔎 Filtrar por IDProd..."
-                                    value={filtroIDProd}
-                                    onChange={(e) => setFiltroIDProd(e.target.value)}
-                                    className={styles.inputSmall}
-                                />
-                            </Col>
-                            <Col xs={12} sm={4} className="mb-2">
-                                <Form.Control
-                                    type="text"
-                                    placeholder="🔍 Filtrar por nombre..."
-                                    value={filtroNombre}
-                                    onChange={(e) => setFiltroNombre(e.target.value)}
-                                    className={styles.inputSmall}
-                                />
-                            </Col>
-                            <Col xs={12} sm={4} className="mb-2">
-                                <Form.Select
-                                    value={filtroGenero}
-                                    onChange={(e) => setFiltroGenero(e.target.value)}
-                                    className={styles.inputSmall}
-                                >
-                                    <option value="">Todos los géneros</option>
-                                    <option value="Femenino">Femenino</option>
-                                    <option value="Masculino">Masculino</option>
-                                    <option value="Ambos">Ambos</option>
-                                </Form.Select>
-                            </Col>
-                        </Row>
-                    )}
+                        {/* Checkbox oculto que controla la visibilidad de los filtros en mobile */}
+                        <input type="checkbox" id="toggleFiltros" className={styles.toggleInput} />
+
+                        {/* Filtros */}
+                        <div className={styles.filtrosRow}>
+                            <Form.Control
+                                type="text"
+                                placeholder="🔎 Filtrar por IDProd..."
+                                value={filtroIDProd}
+                                onChange={(e) => setFiltroIDProd(e.target.value)}
+                                className={styles.inputSmall}
+                            />
+                            <Form.Control
+                                type="text"
+                                placeholder="🔍 Filtrar por nombre..."
+                                value={filtroNombre}
+                                onChange={(e) => setFiltroNombre(e.target.value)}
+                                className={styles.inputSmall}
+                            />
+                            <Form.Select
+                                value={filtroGenero}
+                                onChange={(e) => setFiltroGenero(e.target.value)}
+                                className={styles.inputSmall}
+                            >
+                                <option value="">Todos los géneros</option>
+                                <option value="Femenino">Femenino</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Ambos">Ambos</option>
+                            </Form.Select>
+                        </div>
+                    </div>
                 </div>
             </header>
+
 
             <div className={styles.mainContent}>
                 <div className={styles.fullWidthContainer}>
@@ -114,14 +105,14 @@ const Admin = () => {
                         setMostrarFormulario={setMostrarFormulario}
                     />
 
-                    <Modal
+                    <Modal 
                         show={mostrarFormulario || seleccionado !== null}
                         onHide={handleCerrarFormulario}
                         size="lg"
                         scrollable
                         centered
                     >
-                        <Modal.Header closeButton>
+                        <Modal.Header closeButton className={styles.EncabezadoTitulo}>
                             <Modal.Title className={styles.modalTitulo}>
                                 {seleccionado ? " ✏️ Editar Producto" : "➕ Agregar Producto"}
                             </Modal.Title>
@@ -131,7 +122,6 @@ const Admin = () => {
                         </Modal.Body>
                     </Modal>
 
-                    <Footer />
                 </div>
             </div>
         </div>

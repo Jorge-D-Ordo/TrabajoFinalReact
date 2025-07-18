@@ -3,15 +3,11 @@ import { useNavigate, Link } from 'react-router-dom';
 import carritoIco from '../assets/img/iconos/CarritoCompras1.svg';
 import Carrito from "../paginas/Carrito";
 import { CarritoContext } from '../context/CarritoContext';
-import { AuthContext } from '../context/AuthContext';  // <-- IMPORTA AuthContext
+import { AuthContext } from '../context/AuthContext';
 
 const Nav = () => {
     const navigate = useNavigate();
-
-    // Autenticación viene de AuthContext
     const { isAuthenticated } = useContext(AuthContext);
-
-    // Carrito viene de CarritoContext
     const { carritoAbierto, abrirCarrito } = useContext(CarritoContext);
 
     const irAlCarrito = () => {
@@ -22,7 +18,6 @@ const Nav = () => {
         }
     };
 
-    // Estilos (los tuyos)
     let estiloNav = {
         backgroundColor: "#ea98ff",
         color: 'black',
@@ -35,7 +30,7 @@ const Nav = () => {
         display: 'flex',
         justifyContent: 'space-evenly',
         margin: '0',
-        alignItems: 'center',  // corregí typo aquí
+        alignItems: 'center',
         fontSize: '28px',
     };
     let estiloLink = {

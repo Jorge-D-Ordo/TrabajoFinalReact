@@ -376,11 +376,11 @@ const ProductoFormularioAdmin = ({ onClose }) => {
                     </Col>
                 </Row>
 
-                <Row className="mt-4">
-                    <Col xs={6} className="d-flex justify-content-end pe-1">
+                <Row className= "mt-1 mb-2" >
+                    <Col xs={6} className="d-flex justify-content-end pe-1 ">
                         <Botones texto="Guardar" color="rgb(100, 42, 194)" ancho="50%" type="submit" />
                     </Col>
-                    <Col xs={6} className="d-flex justify-content-start ps-1">
+                    <Col xs={6} className="d-flex justify-content-start ps-1 ">
                         <Botones texto="Cerrar" color="rgba(202, 87, 236, 1)" ancho="50%" onClick={cerrarFormulario} />
                     </Col>
                 </Row>
